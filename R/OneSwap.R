@@ -1,5 +1,15 @@
 # Check if a vector can be sorted with at most one swap function
 
+#' Title
+#'
+#' @param x
+#'
+#' @return
+#' @export
+#'
+#' @examples
+#'
+#'
 oneswap <- function(x) {
   for (i in (1:length(x))){
     for (j in (i:length(x))){
