@@ -7,12 +7,17 @@
 oneswap(x)
 }
 \arguments{
-\item{x}{}
+\item{x}{a numeric vector}
+}
+\value{
+True if vector can be ordered with at most one swap
 }
 \description{
 Title
 }
 \examples{
+ oneswap(c(1,2,3,4,5))
+
 
 
 }

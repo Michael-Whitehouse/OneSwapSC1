@@ -2,12 +2,13 @@
 
 #' Title
 #'
-#' @param x
+#' @param x a numeric vector
 #'
-#' @return
+#' @return True if vector can be ordered with at most one swap
 #' @export
 #'
-#' @examples
+#' @examples  oneswap(c(1,2,3,4,5))
+#'
 #'
 #'
 oneswap <- function(x) {
